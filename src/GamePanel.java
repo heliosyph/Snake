@@ -100,7 +100,7 @@ public class GamePanel extends JPanel implements ActionListener {
   
               //needs to go here
               g.setColor(Color.blue);
-              g.setFont(new Font("Times New Roman", Font.BOLD, 25));
+              g.setFont(new Font("Serif", Font.BOLD, 25));
               FontMetrics metrics = getFontMetrics(g.getFont());
               g.drawString("Score: " + applesEaten,
                       (SCREEN_WIDTH - metrics.stringWidth("Score: " + applesEaten)) /2 ,
@@ -213,7 +213,7 @@ public class GamePanel extends JPanel implements ActionListener {
           this.setBackground(Color.black);
   
           g.setColor(Color.green);
-          g.setFont(new Font("Times New Roman", Font.BOLD, 30));
+          g.setFont(new Font("Serif", Font.BOLD, 30));
           FontMetrics metrics1 = getFontMetrics(g.getFont());
           g.drawString("Score: " + applesEaten,
                   (SCREEN_WIDTH - metrics1.stringWidth("Score: " + applesEaten)) /2,
@@ -221,7 +221,7 @@ public class GamePanel extends JPanel implements ActionListener {
   
   
           g.setColor(Color.green);
-          g.setFont(new Font("Times New Roman", Font.BOLD, 35));
+          g.setFont(new Font("Serif", Font.BOLD, 35));
           FontMetrics metrics2 = getFontMetrics(g.getFont());
           g.drawString("<3Game Over<3",
                   (SCREEN_WIDTH - metrics2.stringWidth("<3Game Over<3")) /2,
